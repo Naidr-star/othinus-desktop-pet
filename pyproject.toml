@@ -1,0 +1,15 @@
+[project]
+name = "othinus-desktop-pet"
+version = "2.6.2"
+description = "Windows desktop pet fan project featuring Othinus"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "PySide6==6.9.2",
+]
+
+[tool.othinus]
+verified-python = "3.13.9"
+entry-point = "othinus_pet.py"
+release-script = "build.ps1"
+verification-script = "verify_v25.py"

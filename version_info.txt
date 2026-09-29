@@ -1,0 +1,30 @@
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(2, 6, 2, 0),
+    prodvers=(2, 6, 2, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable(
+        '080404b0',
+        [
+          StringStruct('CompanyName', '天底 / 安娜修普林凯勒'),
+          StringStruct('FileDescription', 'Othinus Desktop Pet'),
+          StringStruct('FileVersion', '2.6.2.0'),
+          StringStruct('InternalName', 'OthinusDesktopPet'),
+          StringStruct('LegalCopyright', '作者：天底 / 安娜修普林凯勒'),
+          StringStruct('OriginalFilename', 'OthinusDesktopPet.exe'),
+          StringStruct('ProductName', 'Othinus Desktop Pet'),
+          StringStruct('ProductVersion', '2.6.2.0')
+        ]
+      )
+    ]),
+    VarFileInfo([VarStruct('Translation', [2052, 1200])])
+  ]
+)

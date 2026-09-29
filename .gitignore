@@ -1,0 +1,38 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# PyInstaller and local release output
+build/
+dist/
+release_v*/
+*.exe
+*.spec
+*.pkg
+
+# Logs, temporary files and local previews
+*.log
+*.tmp
+*.bak
+*~
+othinus_*_preview.png
+
+# Local saves and OS/editor metadata
+save.json
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Large/private art working sets. Runtime assets remain tracked under assets/.
+reference_sources/
+assets_v2/*.png
+assets_v2/sprites_v2_pre_outline_fix/
+!assets_v2/othinus_master_v2_transparent.png
